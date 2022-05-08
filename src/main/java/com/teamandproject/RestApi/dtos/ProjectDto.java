@@ -17,5 +17,7 @@ public class ProjectDto {
 
     private Date dateEnd;
 
+    private String createdBy;
+
     private Set<String> collaborators = new HashSet<>();
 }

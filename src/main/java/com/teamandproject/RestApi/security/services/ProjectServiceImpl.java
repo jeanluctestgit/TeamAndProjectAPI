@@ -76,6 +76,7 @@ public class ProjectServiceImpl implements IProjectService{
         if (null == project.getCollaborators()) {
             project.setCollaborators(new HashSet<>());
         }
+        project.setCreatedBy(userRepository.findUserByUsername(projectDto.getCreatedBy()).orElseThrow(() -> new UsernameNotFoundException("User Not Found with username: " + projectDto.getCreatedBy())));
         projectDto.getCollaborators().stream().forEach(collabName -> {
             User collaborator = userRepository.findUserByUsername(collabName).orElseThrow(() -> new UsernameNotFoundException("User Not Found with username: " + collabName));
             if (null == collaborator) {
@@ -93,6 +94,7 @@ public class ProjectServiceImpl implements IProjectService{
         responseDto.setDateStart(project.getDateStart());
         responseDto.setDateEnd(project.getDateEnd());
         responseDto.setId(project.getId());
+        responseDto.setCreatedBy(project.getCreatedBy().getUsername());
         responseDto.setCollaborators(project.getCollaborators().stream().map(User::getUsername).collect(Collectors.toSet()));
         return responseDto;
     }

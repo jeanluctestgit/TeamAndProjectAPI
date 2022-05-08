@@ -1,37 +1,37 @@
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\controller\UserController.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\repository\ProjectRepository.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\security\services\CompartimentServiceImpl.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\security\jwt\AuthEntryPointJwt.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\security\jwt\AuthTokenFilter.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\security\services\UserDetailsServiceImpl.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\dtos\TaskDto.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\repository\TaskRepository.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\entity\Status.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\security\services\IProjectService.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\controller\AuthController.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\security\WebSecurityConfig.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\dtos\CompartimentDto.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\security\services\ICompartimentService.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\controller\CompartimentController.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\entity\Project.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\security\jwt\JwtUtils.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\security\services\ResourceNotFoundException.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\controller\ProjectController.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\entity\User.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\payload\response\MessageResponse.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\RestApiApplication.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\payload\request\LoginRequest.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\security\services\TaskServiceImpl.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\entity\Compartiment.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\entity\Task.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\repository\StatusRepository.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\security\services\ProjectServiceImpl.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\security\services\ITaskService.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\security\services\UserDetailsService.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\payload\response\JwtResponse.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\repository\UserRepository.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\security\services\UserDetailsImpl.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\controller\TaskController.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\dtos\ProjectDto.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\repository\CompartimentRepository.java
-C:\Users\claude\Downloads\RestApi -Team and project\RestApi\src\main\java\com\teamandproject\RestApi\payload\request\SignupRequest.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\controller\UserController.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\security\services\CompartimentServiceImpl.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\security\services\IProjectService.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\entity\User.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\payload\response\JwtResponse.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\payload\request\LoginRequest.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\repository\CompartimentRepository.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\repository\TaskRepository.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\entity\Task.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\dtos\CompartimentDto.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\security\services\UserDetailsService.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\entity\Status.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\security\WebSecurityConfig.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\controller\AuthController.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\payload\request\SignupRequest.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\security\jwt\JwtUtils.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\security\services\ResourceNotFoundException.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\entity\Project.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\controller\ProjectController.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\payload\response\MessageResponse.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\security\services\ICompartimentService.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\entity\Compartiment.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\dtos\ProjectDto.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\security\services\UserDetailsServiceImpl.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\controller\CompartimentController.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\repository\ProjectRepository.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\security\services\UserDetailsImpl.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\security\services\TaskServiceImpl.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\repository\UserRepository.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\security\jwt\AuthEntryPointJwt.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\dtos\TaskDto.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\repository\StatusRepository.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\RestApiApplication.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\security\services\ProjectServiceImpl.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\security\services\ITaskService.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\controller\TaskController.java
+C:\jl deshayes\TeamAndProjectAPI\src\main\java\com\teamandproject\RestApi\security\jwt\AuthTokenFilter.java

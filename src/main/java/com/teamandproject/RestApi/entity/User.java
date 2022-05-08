@@ -1,5 +1,7 @@
 package com.teamandproject.RestApi.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -35,6 +37,7 @@ public class User {
     }
 
     @ManyToMany(mappedBy = "collaborators")
+    @JsonBackReference
     private Set<Project> projects;
 
     public Set<Task> getTasks() {
@@ -46,9 +49,13 @@ public class User {
     }
 
     @ManyToMany(mappedBy = "collaborators")
+    @JsonBackReference
     private Set<Task> tasks;
 
-
+    @OneToMany(cascade = CascadeType.ALL,
+            fetch = FetchType.LAZY,
+            mappedBy = "createdBy")
+    private Set<Project> userProjects = new HashSet<>();
 
     public User() {
     }
